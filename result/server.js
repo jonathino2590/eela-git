@@ -6,7 +6,7 @@ var express = require('express'),
     server = require('http').Server(app),
     io = require('socket.io')(server);
 
-var port = process.env.PORT || 9000;
+var port = process.env.PORT || 5000;
 
 console.log("Puerto de Variable de Entorno: " + err);
 
