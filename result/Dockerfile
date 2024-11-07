@@ -18,8 +18,8 @@ RUN npm ci && \
 
 COPY . .
 
-ENV PORT=8080
-EXPOSE 8080
+ENV PORT=9090
+EXPOSE 9090
 
 ENTRYPOINT ["/usr/bin/tini", "--"]
 CMD ["node", "server.js"]
